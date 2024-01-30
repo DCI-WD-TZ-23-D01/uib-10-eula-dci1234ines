@@ -1,1 +1,55 @@
 /* Your code here! */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.eula-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.eula-text {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.eula-container {
+    /* existing styles */
+    overflow: auto;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
